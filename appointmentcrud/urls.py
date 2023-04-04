@@ -13,7 +13,7 @@ schema_view = get_schema_view(
    openapi.Info(
       title="Documentación de API",
       default_version='v1',
-      description="Documentación pública API sistema de sitas",
+      description="Documentación pública API sistema de citas",
       terms_of_service="https://www.google.com/policies/terms/",
       contact=openapi.Contact(email="contact@snippets.local"),
       license=openapi.License(name="BSD License"),
