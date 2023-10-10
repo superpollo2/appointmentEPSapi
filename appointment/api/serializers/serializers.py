@@ -10,9 +10,7 @@ class DoctorSerializer(serializers.ModelSerializer):
         
     def to_representation(self, instance):
         return {
-            'doctor_id' : instance.doctor_id,
-            'doctor_name' : instance.doctor_name,
-            'doctor_office' : instance.doctor_office
+            
         }
         
 class PatientSerializer(serializers.ModelSerializer):
